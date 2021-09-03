@@ -1,0 +1,26 @@
+a {
+  color: var(--link-color, currentColor);
+  transition: 200ms;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--link-color, currentColor);
+}
+
+a:hover {
+  color: var(--link-color-hover, currentColor);
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--link-color-active, currentColor);
+}
+
+a[standalone] {
+  text-decoration: none;
+}
+
+a[standalone]:hover {
+  text-decoration: underline;
+}

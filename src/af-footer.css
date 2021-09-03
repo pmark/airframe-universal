@@ -1,0 +1,19 @@
+af-footer {
+  background-color: var(--color-app-sidebar-bg, var(--color-surface-base-4));
+  color: var(--color-app-text-2i);
+  font-size: var(--font-size-4);
+  width: 100%;
+  text-align: center;
+}
+
+af-footer af-vstack p {
+  color: var(--color-app-text-2i);
+  width: 100%;
+  font-size: var(--font-size-1);
+  line-height: var(--font-line-height-1);
+  padding: var(--space-16);
+}
+
+af-footer af-vstack p:last-child {
+  background-color: var(--color-surface-base-5);
+}

@@ -1,0 +1,19 @@
+af-section {
+  --section-color-bg: var(--color-surface-base-2);
+
+  color: var(--color-text-subtle);
+
+  background-color: var(--section-color-bg);
+  box-shadow: var(--shadow-1);
+  margin: var(--space-16) var(--space-32) var(--space-32);
+  padding: var(--space-16) var(--space-32);
+  border-radius: var(--radius-2);
+
+  display: block;
+}
+
+af-section[colors="halloween"] {
+  background-color: var(--orange-400);
+  --color-content-bg: var(--color-app-secondary);
+  --color-content-text: var(--orange-100);
+}

@@ -1,0 +1,28 @@
+af-tag {
+  background-color: var(--tag-color-bg, var(--color-surface-base-2));
+  color: var(--tag-color-text, var(---color-status-info-4));
+  box-shadow: var(--shadow-1);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-1);
+  width: fit-content;
+}
+
+af-tag[colors="info"] {
+  --tag-color-bg: var(--color-status-info-1);
+  --tag-color-text: var(--color-status-info-4);
+}
+
+af-tag[colors="danger"] {
+  --tag-color-bg: var(--color-status-danger-1);
+  --tag-color-text: var(--color-status-danger-4);
+}
+
+af-tag[colors="success"] {
+  --tag-color-bg: var(--color-status-success-1);
+  --tag-color-text: var(--color-status-success-4);
+}
+
+af-tag[colors="warning"] {
+  --tag-color-bg: var(--color-status-warning-1);
+  --tag-color-text: var(--color-status-warning-4);
+}

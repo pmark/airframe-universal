@@ -1,0 +1,6 @@
+af-header {
+  background-color: var(--color-surface-base-5);
+  color: var(--color-app-text-1i);
+  width: 100%;
+  padding-left: var(--space-32);
+}

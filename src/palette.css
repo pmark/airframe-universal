@@ -1,0 +1,23 @@
+:root {
+  --orange-50: #fff8f2;
+  --orange-100: #fde0c2;
+  --orange-200: #fbc791;
+  --orange-300: #f9ae61;
+  --orange-400: #f79530;
+  --orange-500: #f57c00;
+  --orange-600: #d06900;
+  --orange-700: #ac5700;
+  --orange-800: #874400;
+  --orange-900: #623200;
+
+  --purple-50: #faf4fb;
+  --purple-100: #e7cbec;
+  --purple-200: #d4a2dd;
+  --purple-300: #c279ce;
+  --purple-400: #af50bf;
+  --purple-500: #9c27b0;
+  --purple-600: #852196;
+  --purple-700: #6d1b7b;
+  --purple-800: #561561;
+  --purple-900: #3e1046;
+}

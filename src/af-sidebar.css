@@ -1,0 +1,31 @@
+af-sidebar {
+  --link-color: var(--color-app-text-2);
+  background-color: var(--color-app-sidebar-bg, var(--color-surface-base-3));
+  font-size: var(--font-size-4);
+  height: 100%;
+  padding: var(--space-16);
+  white-space: nowrap;
+}
+
+af-sidebar a[standalone] {
+  width: 100%;
+  display: block;
+  padding: var(--space-8) var(--space-12);
+  margin: var(--space-4) 0;
+  background-color: var(--color-surface-base-3);
+  color: var(--link-color);
+  text-decoration: none;
+  border-radius: var(--radius-3);
+}
+
+af-sidebar a[standalone]:hover {
+  --link-color: var(--color-app-text-1);
+  background-color: var(--color-surface-base-2);
+  text-decoration: none;
+  box-shadow: var(--shadow-2);
+}
+
+af-sidebar a[standalone]:active {
+  background-color: var(--color-surface-base-1);
+  box-shadow: none;
+}

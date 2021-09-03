@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Airframe Token Demo #1</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="app">
+      <af-vstack align-x="center" spacing="xs">
+        <af-header>
+          <h1>Airframe Token Demo #1</h1>
+        </af-header>
+
+        <af-hstack align-y="top" spacing="xl">
+          <af-sidebar>
+            <a href="#card" standalone>Card</a>
+            <a href="#button" standalone>Button</a>
+            <a href="#theming" standalone>Theming</a>
+          </af-sidebar>
+
+          <main>
+            <a id="card"></a>
+            <af-section>
+              <samp>&lt;af-card&gt;</samp>
+              <af-hstack spacing="xl" align-x="center">
+                <af-card>
+                  <af-vstack spacing="sm">
+                    <p>
+                      Include a script tag to fetch a bundle with the modules
+                      your page needs.
+                    </p>
+                    <af-tag colors="warning">to do</af-tag>
+                  </af-vstack>
+                </af-card>
+
+                <af-card>
+                  <af-vstack spacing="sm">
+                    <p>
+                      Styles are made available to children of
+                      <code>&lt;af-view&gt;</code> tags.
+                    </p>
+                    <af-tag colors="warning">to do</af-tag>
+                  </af-vstack>
+                </af-card>
+              </af-hstack>
+            </af-section>
+
+            <a id="button"></a>
+            <af-section>
+              <samp>&lt;af-button&gt;</samp>
+              <af-hstack align-x="center" spacing="xs">
+                <af-card>
+                  <af-vstack align-x="center" spacing="md">
+                    <p>primary</p>
+                    <af-button>solid</af-button>
+                    <af-button variant="outline">outline</af-button>
+                    <af-button variant="minimal">minimal</af-button>
+                  </af-vstack>
+                </af-card>
+
+                <af-card>
+                  <af-vstack align-x="center" spacing="md">
+                    <p>neutral</p>
+                    <af-button colors="neutral">solid</af-button>
+                    <af-button variant="outline" colors="neutral"
+                      >outline</af-button
+                    >
+                    <af-button variant="minimal" colors="neutral"
+                      >minimal</af-button
+                    >
+                  </af-vstack>
+                </af-card>
+
+                <af-card>
+                  <af-vstack align-x="center" spacing="md">
+                    <p>danger</p>
+                    <af-button colors="danger">solid</af-button>
+                    <af-button variant="outline" colors="danger">
+                      outline
+                    </af-button>
+                    <af-button variant="minimal" colors="danger">
+                      minimal
+                    </af-button>
+                  </af-vstack>
+                </af-card>
+              </af-hstack>
+            </af-section>
+
+            <a id="theming"></a>
+            <af-section colors="halloween">
+              <h3>theming</h3>
+              <div style="height: 72px; margin-top: 50px;">
+                <af-card class="flips">
+                  <div class="face front">
+                    Front
+                  </div>
+                  <div class="face back">
+                    Back
+                  </div>
+                </af-card>
+              </div>
+            </af-section>
+          </main>
+        </af-hstack>
+
+        <af-footer>
+          <af-vstack align-x="center">
+            <p>Airframe</p>
+            <p>Copyright &copy 2021 Cirium</p>
+          </af-vstack>
+        </af-footer>
+      </af-vstack>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

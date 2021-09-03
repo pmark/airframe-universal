@@ -1,0 +1,22 @@
+body {
+  --color-app-primary: var(--color-primary-700);
+  --color-app-background: var(--color-surface-base-3);
+  --color-text-subtle-inverse: var(--purple-50);
+
+  font-family: var(--font-family-1), sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-app-background);
+  height: 100%;
+  min-height: 80vh;
+  padding: 0;
+  margin: 0;
+}
+
+code {
+  background-color: var(--color-surface-base-2);
+  color: var(---color-app-text-1);
+  font-family: monospace;
+  box-shadow: var(--shadow-1);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-1);
+}

@@ -1,0 +1,147 @@
+af-hstack {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+}
+af-hstack[spacing="xl"] > * {
+  margin-right: 32px;
+}
+af-hstack[spacing="l"] > * {
+  margin-right: 24px;
+}
+af-hstack[spacing="m"] > * {
+  margin-right: 16px;
+}
+af-hstack[spacing="s"] > * {
+  margin-right: 12px;
+}
+af-hstack[spacing="xs"] > * {
+  margin-right: 8px;
+}
+af-hstack[spacing="xxs"] > * {
+  margin-right: 4px;
+}
+af-hstack[spacing] > :last-child {
+  margin-right: 0;
+}
+af-hstack[align-y="top"] {
+  align-items: flex-start;
+}
+af-hstack[align-y="center"] {
+  align-items: center;
+}
+af-hstack[align-y="bottom"] {
+  align-items: flex-end;
+}
+af-hstack[align-x="left"] {
+  justify-content: flex-start;
+}
+af-hstack[align-x="center"] {
+  justify-content: center;
+}
+af-hstack[align-x="right"] {
+  justify-content: flex-end;
+}
+af-vstack {
+  display: flex;
+  align-self: stretch;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+af-vstack[spacing="xl"] > * {
+  margin-bottom: 40px;
+}
+af-vstack[spacing="lg"] > * {
+  margin-bottom: 28px;
+}
+af-vstack[spacing="md"] > * {
+  margin-bottom: 20px;
+}
+af-vstack[spacing="sm"] > * {
+  margin-bottom: 15px;
+}
+af-vstack[spacing="xs"] > * {
+  margin-bottom: 10px;
+}
+af-vstack[spacing="xxs"] > * {
+  margin-bottom: 6px;
+}
+af-vstack[spacing] > :last-child {
+  margin-bottom: 0;
+}
+af-vstack[align-x="left"] {
+  align-items: flex-start;
+}
+af-vstack[align-x="center"] {
+  align-items: center;
+}
+af-vstack[align-x="right"] {
+  align-items: flex-end;
+}
+af-vstack[align-y="top"] {
+  justify-content: flex-start;
+}
+af-vstack[align-y="center"] {
+  justify-content: center;
+}
+af-vstack[align-y="bottom"] {
+  justify-content: flex-end;
+}
+
+af-spacer {
+  flex: 1;
+}
+af-divider {
+  background-color: #d9ddde;
+  align-self: stretch;
+}
+af-vstack > af-divider {
+  margin: 10px 0;
+  height: 1px;
+}
+af-vstack[spacing] > af-divider {
+  margin-top: 0;
+}
+af-hstack > af-divider {
+  margin: 0 10px;
+  width: 1px;
+}
+af-hstack[spacing] > af-divider {
+  margin-left: 0;
+}
+af-view {
+  display: flex;
+  height: 100%;
+}
+[debug] * {
+  outline: 1px solid #009ddc !important;
+}
+[stretch] {
+  align-self: stretch;
+  flex: 1 1 auto;
+}
+af-vstack[stretch] {
+  height: 100%;
+}
+af-spacer {
+  flex: 1;
+}
+af-divider {
+  background-color: #d9ddde;
+  align-self: stretch;
+}
+af-vstack > af-divider {
+  margin: 10px 0;
+  height: 1px;
+}
+af-vstack[spacing] > af-divider {
+  margin-top: 0;
+}
+af-hstack > af-divider {
+  margin: 0 10px;
+  width: 1px;
+}
+af-hstack[spacing] > af-divider {
+  margin-left: 0;
+}

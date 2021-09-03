@@ -1,0 +1,29 @@
+af-button {
+  --button-color-bg: var(--color-app-primary);
+  --button-color-text: var(--color-text-default-inverse);
+  --button-color-border: var(--color-app-primary);
+
+  color: var(--button-color-text);
+  background-color: var(--button-color-bg);
+  border-color: var(--button-color-border);
+
+  text-transform: uppercase;
+  font-size: var(--font-size-2);
+  line-height: 24px;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: var(--radius-3);
+  padding: 7px 12px;
+}
+
+af-button[variant="outline"] {
+  --button-color-bg: transparent;
+  --button-color-text: var(--color-app-primary);
+}
+
+af-button[variant="minimal"] {
+  --button-color-bg: transparent;
+  --button-color-text: var(--color-app-primary);
+  border: none;
+  --button-color-bg: transparent;
+}
